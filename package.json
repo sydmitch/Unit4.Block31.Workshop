@@ -1,0 +1,14 @@
+{
+  "name": "unit4.block31.workshop.start",
+  "version": "1.0.0",
+  "description": "block31",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "abi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
