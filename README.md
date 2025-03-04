@@ -10,8 +10,8 @@ To run the server and client, you will need **two** active terminals - one runni
   - Run `npm run dev` while actively testing/writing your code. This uses `nodemon`, which will incorporate your changes without having to kill/restart the server.
 
 ## Server Logic 
-[ ] Import the express framework and initiaize our app - you should set the value of the express instance as app.
+- Import the express framework and initiaize our app - you should set the value of the express instance as app.
 *Hint: this will solve `ReferenceError: app is not defined`*
-[ ] Initialize server using `app.listen`. Use the `PORT` variable that is intialized at the top of `index.js` and include a `console.log` in your callback function that logs something like `Server running on PORT`.
-[ ] Add error handling middleware to your app. Remember, this goes **after** all routes since we only want to trigger it when we receive an error.
-[ ] Set up a `hello world` route. See [express documentation](https://expressjs.com/en/starter/hello-world.html).
+- Initialize server using `app.listen`. Use the `PORT` variable that is intialized at the top of `index.js` and include a `console.log` in your callback function that logs something like `Server running on PORT`.
+- Add error handling middleware to your app. Remember, this goes **after** all routes since we only want to trigger it when we receive an error.
+- Set up a `hello world` route. See [express documentation](https://expressjs.com/en/starter/hello-world.html).
