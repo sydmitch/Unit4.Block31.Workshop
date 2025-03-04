@@ -1,3 +1,6 @@
 const router = require('express').Router();
 
-// router.get('/employees', (req, res, next) => {});
+// set up api route to get employees 
+
+
+// remember to export the router!
