@@ -18,9 +18,8 @@ app.use(express.urlencoded({ extended: true }));
 
 /* set up intial hello world route */
 
-/* set up api router */
+/* set up api route */
 
-/* set up error handling (use error handling middleware) */
 
 /* our middleware won't capture 404 errors, so we're setting up a separate error handler for those*/
 app.use((req, res, next) => {
