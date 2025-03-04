@@ -13,4 +13,4 @@ To run the server and client, you will need **two** active terminals - one runni
 [ ] Import the express framework and initiaize our app - you should set the value of the express instance as app.
 *Hint: this will solve `ReferenceError: app is not defined`*
 [ ] Initialize server using `app.listen`. Use the `PORT` variable that is intialized at the top of `index.js` and include a `console.log` in your callback function that logs something like `Server running on PORT`.
-[ ] 
+[ ] Add error handling middleware to your app. 
